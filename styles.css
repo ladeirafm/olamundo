@@ -1,0 +1,44 @@
+/* Estilos CSS aqui */
+.header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.head-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.top-menu {
+    display: flex;
+    align-items: center;
+}
+
+.top-menu-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-menu-nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.top-menu-nav li:last-child {
+    margin-right: 0;
+}
+
+.top-menu-nav li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar_btn {
+    margin-left: 10px;
+}
